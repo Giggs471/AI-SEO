@@ -2,6 +2,7 @@
 import { DotLottiePlayer } from "@dotlottie/react-player";
 import Image from "next/image";
 import productImage from "@/assets/product-image.png"
+import motion from "framer-motion"
  
 const tabs = [
   {

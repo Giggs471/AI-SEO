@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="font-medium ">AI Startup Landing Page</div>
         </div>
           <nav className="flex flex-col gap-5 lg:flex-row lg:gap-7  lg:justify-center">
-            <a href="#" className="text-white/70 hover:text-white text-xs  md:text-md">Features</a>
+            <a href="#" className="text-white/70 hover:text-white text-xs md:text-md">Features</a>
             <a href="#" className="text-white/70 hover:text-white text-xs md:text-md">Developers</a>
             <a href="#" className="text-white/70 hover:text-white text-xs md:text-md">Company</a>
             <a href="#" className="text-white/70 hover:text-white text-xs md:text-md">Blog</a>
