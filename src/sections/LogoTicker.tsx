@@ -1,6 +1,6 @@
 'use client'
 import acmeLogo from '@/assets/logo-acme.png'
-import apecLogo from '@/assets/logo-apex.png'
+import apexLogo from '@/assets/logo-apex.png'
 import celestialLogo from '@/assets/logo-celestial.png'
 import quantumLogo from '@/assets/logo-quantum.png'
 import pulseLogo from '@/assets/logo-pulse.png'
@@ -24,7 +24,7 @@ export const LogoTicker = () => {
             ease:"linear"
           }}
           className="flex flex-none gap-14 pr-14 -translate-x-1/2"> {/*to check the correct position use -translate-x-1/2 == -translate-x-0 */}
-              {[acmeLogo,pulseLogo,apecLogo,celestialLogo,quantumLogo,echoLogo,acmeLogo,pulseLogo,apecLogo,celestialLogo,quantumLogo,echoLogo].map((logo) => (
+              {[acmeLogo,pulseLogo,apexLogo,celestialLogo,quantumLogo,echoLogo,acmeLogo,pulseLogo,apexLogo,celestialLogo,quantumLogo,echoLogo].map((logo) => (
                 <img src={logo.src} key={logo.src} className='h-6 w-auto '/>
               ))}
           </motion.div>
